@@ -13,6 +13,9 @@ table{
     overflow: auto; 
 }
 
+.home {
+    height: 100vh;
+}
 
 
 h4 {

@@ -7,7 +7,7 @@ import Plot from 'react-plotly.js';
 const Home = (props) => {
     
     return (
-        <div>
+        <div className="home">
             {/* jumbotron */}
             <div className="jumbotron jumbotron-fluid contentJ0">
                 <div className="container">
@@ -33,7 +33,7 @@ const Home = (props) => {
                             <h5 class="display-4">Find Real Time Stock Data</h5>
                             <h1 class="display-4">Search Here</h1>
                             <hr class="my-4"/>
-                            <a class="btn btn-primary btn-lg" href="/search" role="button">Dashboard</a>
+                            <a class="btn btn-primary btn-lg" href="/search" role="button">Search</a>
                         </div>
                     </div>
                 </div>
