@@ -30,12 +30,20 @@ const DashboardResult = (props) => {
                 <div className="row mbh">{value.quote.companyName} - ({value.quote.symbol})</div>
                 <div className="d-flex flex-row-reverse">
                 <div className="float-right">
-                            <div className="mbp">
+                            {/* <div className="col-sm mbp">
                                 ${value.quote.latestPrice.toString().substring(0,6)}
                             </div>
-                        <div className="negative mbp">
-                            ({(value.quote.changePercent * 100).toString().substring(0,4)}%)
-                        </div>
+                        <div className="col-sm negative mbp"> */}
+                        <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-6 mbp">
+                                    ${value.quote.latestPrice.toString().substring(0,6)}
+                                    </div>
+                                    <div class="col-xs-6 negative mbp">
+                                    ({(value.quote.changePercent * 100).toString().substring(0,4)}%)
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -46,12 +54,16 @@ const DashboardResult = (props) => {
               <div className="row mbh">{value.quote.companyName} - ({value.quote.symbol})</div>
               <div className="d-flex flex-row-reverse">
               <div className="float-right">
-                        <div className="mbp">
-                            ${value.quote.latestPrice.toString().substring(0,6)}
-                        </div>
-                    <div className="positive mbp">
-                        ({(value.quote.changePercent * 100).toString().substring(0,4)}%)
-                    </div>
+              <div class="container">
+                                <div class="row">
+                                    <div class="col-xs-6 mbp">
+                                    ${value.quote.latestPrice.toString().substring(0,6)}
+                                    </div>
+                                    <div class="col-xs-6 positive mbp">
+                                    ({(value.quote.changePercent * 100).toString().substring(0,4)}%)
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                 </div>
               </div>
