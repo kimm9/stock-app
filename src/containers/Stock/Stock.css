@@ -1,0 +1,22 @@
+#logo{
+    font-family: 'Kalam', cursive;
+}
+
+#fLogo{
+    font-family: 'Kalam', cursive;
+    border-bottom: .5px solid #ffffff;
+}
+
+#navbarNav li {
+    font-family: 'Nunito';
+}
+
+.title{
+    padding: 20px 0px 20px;
+}
+
+.btn {
+    background-color: #226597;
+    color: white;
+    margin: 0px 10px 0px 10px;
+}

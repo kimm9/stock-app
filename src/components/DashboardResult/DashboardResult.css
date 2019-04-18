@@ -1,0 +1,151 @@
+table{
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.table {
+    flex: 0 0 auto;
+    overflow: auto; 
+}
+
+
+
+h4 {
+    padding: 0px 0px 30px;
+}
+
+
+.mbh {
+    font-size: .8rem;
+    padding: 00px 0px 30px;
+}
+.mbp {
+    font-size: .8rem
+}
+.mbp1 {
+    font-size: .3rem;
+    vertical-align: bottom; 
+}
+
+.cardText h5 {
+    font-size: .7em;
+    padding-bottom: 10px;
+    font-weight: 700;
+}
+
+.cardText img {
+    opacity: 0.7;
+}
+
+.card-img-overlay{
+    box-sizing: none !important;
+}
+
+
+.cardContent .card-title{
+    padding: 10px 20px 20px !important;
+}
+
+thead {
+    font-size: .7em;
+}
+tbody {
+    font-size: .7em;
+}
+
+
+.negative {
+    color: red;
+}
+
+.card .negative1 {
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    font-size: .8rem;
+    border-radius: 1px;
+    text-align: right !important;
+    background: rgb(247, 33, 33);
+    padding: 0.25rem;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.positive {
+    color: green;
+}
+
+
+
+
+
+.card .positive1 {
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    font-size: .8rem;
+    border-radius: 1px;
+    text-align: right !important;
+    background: rgb(25, 190, 135);
+    padding: 0.25rem !important;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.content {
+    padding: 20px 0px 0px
+
+}
+.content1 {
+    padding: 20px 0px 20px;
+    border-bottom: 1px solid #eef2f5; 
+}
+.content1 img{
+    width: 30%;
+    height: 30%;
+}
+.dashhead1 {
+    padding: 0px 0px 0px;
+    font-size: 2rem;
+}
+
+.cardContent {
+    background-color: #eef2f5;
+    border: 1px solid #eef2f5;
+    border-radius: 1px;
+    margin-bottom: 15px;
+}
+
+.cardContent2 {
+    background-color: #eef2f5;
+    border: 1px solid #eef2f5;
+    border-radius: 0px;
+}
+
+.cardContent:hover {
+    background-color: #a9c6de;
+    border: 1px solid #eef2f5;
+    border-radius: 1px;
+    margin-bottom: 15px;
+}
+
+
+.dashhead2 {
+    padding: 20px 0px 20px;
+    font-size: 1.7rem;
+    border-bottom: 1px solid #eef2f5;
+}
+
+.dashhead3 {
+    padding: 30px 0px 00px;
+    font-size: .8rem;
+    font-weight: 100;
+}
+
+.dashhead4 {
+    padding: 50px 0px 20px;
+    font-size: 1.7rem;
+}

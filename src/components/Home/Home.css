@@ -1,0 +1,28 @@
+.contentJ0 {
+    background: linear-gradient(25deg, #385170 80%, #142d4c 20%);
+    color: aliceblue;
+    opacity: 1;
+}
+
+
+.contentJ2 {
+    background: linear-gradient(145deg, #226089 60%, #113f67 40%);
+    color: aliceblue;
+    opacity: 1;
+}
+
+.contentJ3 {
+    background: linear-gradient(145deg, #142d4c 50%, #385170 50%);
+    color: aliceblue;
+    opacity: 1;
+
+}
+
+.contentJ0 a, .contentJ1 a, .contentJ3 a, .contentJ2 a { 
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+}
+
+.contentJ0 h5, .contentJ1 h5, .contentJ3 h5, .contentJ2 h5 {    
+    font-size: 2rem;
+}
