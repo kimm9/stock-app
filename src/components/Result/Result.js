@@ -39,7 +39,7 @@ const Result = (props) => {
                     <div className="col content1">
                         <h5>{props.allstockdata.quote.companyName} ({props.allstockdata.quote.symbol})</h5>
                         <div>
-                        <h2>{props.allstockdata.quote.iexRealtimePrice}</h2><p>{(props.allstockdata.quote.changePercent < 0) ? <div className="negative">{(props.allstockdata.quote.changePercent * 100).toString().substring(0,5)}%</div> : <div className="positive">{(props.allstockdata.quote.changePercent * 100).toString().substring(0,4)}%</div>}</p>
+                        <h2>${props.allstockdata.quote.latestPrice}</h2><p>{(props.allstockdata.quote.changePercent < 0) ? <div className="negative">{(props.allstockdata.quote.changePercent * 100).toString().substring(0,5)}%</div> : <div className="positive">{(props.allstockdata.quote.changePercent * 100).toString().substring(0,4)}%</div>}</p>
                         </div>
                     </div>
 				</div>

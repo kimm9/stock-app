@@ -92,7 +92,7 @@ class Search extends Component {
     handleStockSubmit = event => {
 			event.preventDefault();
 		axios.all([
-			axios.get('https://newsapi.org/v2/everything?q=' + this.state.search.stockName + '&from=' + this.state.date + '&sortBy=popularity&apiKey=f028c8dd8e3047f6922cb14e33f32efa'),
+			axios.get('https://newsapi.org/v2/everything?language=en&q=' + this.state.search.stockName + '&from=' + this.state.date + '&sortBy=popularity&apiKey=f028c8dd8e3047f6922cb14e33f32efa'),
 		axios.get('https://api.iextrading.com/1.0/stock/' + this.state.search.stockSymbol + '/batch?types=quote,news,chart,company&range=1m&last=1')
 		]).then(axios.spread( (articles, stockdata) => {
 			console.log(articles, stockdata)
@@ -205,7 +205,7 @@ class Search extends Component {
         return (
             <div>
 							<div className="jumbotron" id="searchJ">
-								<h1 className="display-4">Find your stock here!</h1>
+								<h3 className="display-4">Real Time Stock Data Search</h3>
 								<p className="lead">Enter company's name or a symbol to find it's real time data!</p>
 								<p>Search result includes Company Profile, Market Data, Price Chart, Top News</p>
 								<hr className="my-4"/>
