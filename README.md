@@ -12,3 +12,9 @@ A web application that informs users real time stock data. A user can search a s
 - Technology: HTML, CSS, JS, React.js
 - Framework: Bootstrap
 - API: IEX API, NEWS API
+
+# Link
+
+---
+
+Link: https://stock-finder-app.herokuapp.com
